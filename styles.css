@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #fbbf24;
+  --secondary-color: #1e293b;
+  --width-break: 600px;
+}
+
+body {
+  font-family: "Kalam", cursive;
+  margin: 0;
+}
+nav {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 1rem;
+}
+main {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+}
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
+}
+#translate-text {
+  background-color: var(--primary-color);
+  border: 2px solid var(--secondary-color);
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Kalam", cursive;
+  font-size: large;
+}
+
+#output {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid var(--secondary-color);
+}
+
+footer {
+  position: fixed;
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
