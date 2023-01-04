@@ -1,6 +1,6 @@
 # Banana-Talk
 
-It is CLI based application developed using vanilla javascript.
+You can use this app to translate text in English to Banana aka minion language. You just need to write a text in English language and it will convert the text to Banana language.
 
 # Tech stack
 
