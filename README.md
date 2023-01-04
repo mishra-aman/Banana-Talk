@@ -6,6 +6,10 @@ You can use this app to translate text in English to Banana aka minion language.
 
 Javascript
 
+CSS
+
+HTML
+
 # Hosting URL: 
 
 https://mishra-banana-talk.netlify.app/
